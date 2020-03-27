@@ -1,0 +1,168 @@
+.pagina{
+    width: ;
+    height: ;
+}
+<--------------------------->
+.slider {
+	width: 90%;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+    width: 200%;
+	margin-bottom: 0px;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+
+}
+
+.divcentrado{padding:8px;
+    color: white;
+    margin:auto;
+    position: absolute;
+    top: 26%; left: 26%;
+    font-size: 90px;
+}
+
+.pay{
+    font-family: 'Paytone One', sans-serif;
+}
+
+.titulopay{
+    font-family: 'Paytone One', sans-serif;
+
+}
+
+.helvetica{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+.titulohel{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.lrojo{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #f02727;
+	font-size: 20px;
+
+}
+.botones{
+	width:; 
+	height:50px; 
+	background-color:rgb(255, 255, 255);
+	text-align: center;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+.botones:hover{
+	background-color: rgb(235, 235, 235);
+	color: white;
+}
+
+.botones:focus{
+	height:53px; 
+}
+
+.container1{
+	position: relative;
+	width: 100%;
+}
+
+.container1 .section{
+	position: sticky;
+	width: 100%;
+	top: 0;
+	height: 110vh;
+	background: #000;
+}
+
+.container1 .section:nth-child(1) {
+	background: url(Enexius.jpg);
+	background-size: cover;
+}
+
+.container1 .section:nth-child(2) {
+	background: url(Enexius2.jpg);
+	background-size: cover;
+}
+
+.container1 .section:nth-child(3) {
+	background: url(Enexius3.jpg);
+	background-size: cover;
+}
+
+.container1 .section:nth-child(4) {
+	background: url(Enexius8.jpg);
+	background-size: cover;
+}
+
+.container1 .section:nth-child(5) {
+	background: url(Enexius7.jpg);
+	background-size: cover;
+}
+
+.container1 .section:nth-child(6) {
+	background: url(Enexius6.jpg);
+	background-size: cover;
+}
+
+.container1 .section:nth-child(7) {
+	background: url(Enexius5.jpg);
+	background-size: cover;
+}
+
+.container1 .section:nth-child(8) {
+	background: url(Enexius4.jpg);
+	background-size: cover;
+}
+
+.sgt{
+	width: ; height:125px; background-color: #ffffff;
+}
+
+.sgt:hover{
+	background-color: #ce2525;
+}
+
+.vermas{
+	border: 2px solid black;
+	padding: 14px 10px;
+	width: 200px;
+	background: none;
+	border-radius: 24px;
+}
+
+.vermas:hover{
+	border: none;
+	padding: 14px 10px;
+	width: 250px;
+	background: #f02727;
+	border-radius: 24px;
+	color: white;
+}
+

@@ -1,0 +1,103 @@
+.pagina{
+    width: 100%;
+    height: 100%;
+    background-image: url('Enexius.jpg');
+    background-size: 100%;
+}
+.recuadroregistro{
+    background-color: rgb(202, 38, 27);
+    float: right;
+    width: 50%;
+    height: 100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    transition: 0.25s;
+    box-shadow: 0px 0px 7px rgb(22, 22, 22);
+
+}
+.recuadroinicio{
+    position: ;
+    top: 50%;
+    margin-top: 25%;
+    text-align: center;
+    top: 50%;
+
+}
+
+.recuadroinicio h1{
+color: white;
+font-size: 60px;
+font-family: 'Paytone One', sans-serif;
+color: #272727;
+}
+
+.campos{
+border: 0;
+background: none;
+display: block;  
+margin: 20px auto;
+text-align: center;
+border: 3px solid #fff;  
+padding: 14px 10px;
+width: 300px;
+outline: none;
+color: white;
+border-radius: 24px;
+transition: 0.25s;
+}
+
+.campos:focus{
+    width: 350px;
+    border: 3px solid #272727;
+}
+
+.iniciarseccion{
+    border: 0;
+    background: #272727;
+    display: block;  
+    margin: 20px auto;
+    text-align: center;
+ 
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: #ffffff;
+    border-radius: 24px;
+    transition: 0.50s;
+}
+
+.iniciarseccion:hover {
+    background: rgb(255, 255, 255);
+    color: black;
+ 
+    box-shadow: 0px 0px 7px rgb(22, 22, 22);
+
+}
+
+.bt-visitante{
+background-color:none;
+text-decoration: none;
+bottom: 0;
+transition: 0.25s;
+color: black;
+font-size: 10px;
+}
+
+.bt-visitante:hover{
+    color: black;
+
+}
+
+.recuadroimagen{
+float: left;
+width: 50%;
+height: 100%;
+transition: 0.25s;
+}
+
+.recuadroimagen img{
+top:50%;
+display:block;
+margin:auto;
+transition: 0.25s;
+}
